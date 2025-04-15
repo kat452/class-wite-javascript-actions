@@ -15,7 +15,7 @@ async function getJoke() {
     const res = fetch("https://icanhazdadjoke.com/", options)
         .then((res) => res.json())
         .then((data) => console.log(data.joke))
-        .catch((err) => console.error(err));)
+        .catch((err) => console.error(err));
     return res.joke;
 }
 
