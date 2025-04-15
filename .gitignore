@@ -35,11 +35,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-/.github/actions/joke-action/node_modules/.bin
-/.github/actions/joke-action/node_modules
-/.vs/class-wite-javascript-actions/CopilotIndices/17.13.441.19478
-/.vs/class-wite-javascript-actions/FileContentIndex
-/.vs/class-wite-javascript-actions/v17/.wsuo
-/.vs/class-wite-javascript-actions/v17/DocumentLayout.backup.json
-/.vs/class-wite-javascript-actions/v17/DocumentLayout.json
-/.vs/VSWorkspaceState.json
+/.vs
