@@ -1,4 +1,6 @@
-const request = require("request-promise-core");
+/*const request = require("request-promise-core");
+
+*/
 
 const options = {
     method: "GET",
@@ -9,9 +11,11 @@ const options = {
     },
     json: true,
 };
-
 async function getJoke() {
-    const res = await request(options);
+    const res = fetch("https://icanhazdadjoke.com/", options)
+        .then((res) => res.json())
+        .then((data) => console.log(data.joke))
+        .catch((err) => console.error(err));)
     return res.joke;
 }
 
