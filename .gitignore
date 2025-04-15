@@ -36,3 +36,4 @@
 ehthumbs.db
 Thumbs.db
 /.vs
+/.github/actions/joke-action/node_modules
